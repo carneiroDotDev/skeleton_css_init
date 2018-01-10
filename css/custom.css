@@ -18,6 +18,10 @@
     z-index: 100;
 }
 
+a.logolink  {
+    text-decoration:none;
+}
+
 .nav {
     text-align:right;
 }
@@ -56,6 +60,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+.infotitle {
+    margin-top:20px;
+}
+
 
 /* Larger than mobile */
 /* applies to all widths 400px and greater */
@@ -65,7 +73,7 @@ h2 {
 
 /* Larger than phablet */
 /* applies to all widths 550px and greater */
-@media (min-width: 550px) {
+@media (min-width: 570px) {
     .header{
      padding: 40px 0 50px 0;
     }
@@ -73,7 +81,7 @@ h2 {
     .logo{
         position: static;
         background-color: transparent;
-        font-size: 2rem;
+        font-size: 2.1rem;
         light-height:1;
     }
 
@@ -96,7 +104,7 @@ h2 {
 /* applies to all widths 750px and greater */
 @media (min-width: 750px) {
     .logo{
-        font-size: 3rem;
+        font-size: 2.8rem;
         position: relative;
         top: 5px;
 }
